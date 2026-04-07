@@ -222,7 +222,7 @@ export default function Page() {
       </h2>
       <p className="text-lg md:text-xl text-slate-800 font-medium leading-relaxed max-w-2xl mx-auto">
         현관 구석의 지저분한 박스들은 이제 잊으세요. <br className="hidden md:block" />
-        인테리어를 해치지 않는 미니멀한 디자인의 <span className="font-bold">'A get'</span> 하나로 
+        인테리어를 해치지 않는 미니멀한 디자인의 <span className="font-bold">'대리버리함'</span> 하나로 
         당신의 소중한 집, 그 첫인상을 완벽하게 바꿉니다.
       </p>
     </div>
@@ -485,34 +485,47 @@ export default function Page() {
     </div>
   </div>
 </section>
-{/* SECTION 9-2: FOUNDING STORY - 10만원의 깨달음 */}
-<div className="mt-32 p-12 bg-white/5 rounded-[50px] border-2 border-emerald-500/30 relative">
-  <div className="absolute -top-10 left-10 bg-emerald-500 text-white px-8 py-3 rounded-full font-black italic shadow-xl">
+{/* SECTION 9-2: FOUNDING STORY - 10만원의 깨달음 (화이트 배경 가독성 버전) */}
+<div className="mt-32 p-12 bg-slate-50 rounded-[50px] border border-slate-200 relative shadow-inner">
+  <div className="absolute -top-6 left-10 bg-emerald-600 text-white px-8 py-2 rounded-full font-black italic shadow-lg">
     THE GENESIS: 100,000 KRW FINE
   </div>
   
   <div className="flex flex-col md:flex-row gap-12 items-center">
-    <div className="text-8xl">💸</div>
+    <div className="text-8xl animate-bounce">💸</div>
     <div className="space-y-6">
-      <h3 className="text-3xl md:text-4xl font-black leading-tight text-emerald-400">
-        "이 모든 시작은 대표 박찬호의 <br /> 10만원짜리 과태료 고지서였습니다."
+      {/* 메인 타이틀: 블랙 & 그린 강조 */}
+      <h3 className="text-3xl md:text-5xl font-black leading-tight text-slate-900">
+        "이 모든 시작은 대표 박찬호의 <br /> 
+        <span className="text-emerald-600">10만원짜리 과태료 고지서였습니다."</span>
       </h3>
-      <div className="space-y-4 text-lg text-slate-300 leading-relaxed font-medium">
+
+      <div className="space-y-6 text-lg text-slate-700 leading-relaxed font-medium">
         <p>
           2025년 어느 늦은 밤, 야근을 마치고 돌아온 박찬호 대표는 산더미처럼 쌓인 배달 용기와 사투를 벌였습니다. 
           라벨을 떼다 손톱이 뒤집히고, 양념 묻은 플라스틱을 씻다 현타가 온 그 순간, 
-          그는 결국 유혹을 이기지 못하고 "어쩌라고~" 라며 대충 묶어 내놓았습니다.
+          그는 결국 유혹을 이기지 못하고 <span className="text-red-500 font-black text-2xl italic">"어쩌라고~"</span> 라며 대충 묶어 내놓았습니다.
         </p>
-        <p className="bg-white/10 p-4 rounded-xl italic">
-          결과는 처참했습니다. 일주일 뒤 날아온 10만원의 무단투기 과태료 고지서. 
-          그는 억울함보다 깊은 깨달음을 얻었습니다. 
-        </p>
-        <p className="text-xl text-white font-black italic">
-          "환경을 지키는 마음이 왜 벌금의 공포로 이어져야 하는가? <br className="hidden md:block" />
-          왜 지구를 지키는 일은 이토록 귀찮고 스트레스받는 일이어야 하는가?"
-        </p>
-        <p>
-          박찬호 대표는 결심했습니다. <span className="text-emerald-400 font-bold">"나 같은 사람들을 위해, 내가 직접 치워주는 서비스를 만들자."</span> 
+
+        {/* 고지서 강조 박스 */}
+        <div className="bg-white p-6 rounded-2xl border-l-8 border-emerald-500 shadow-sm">
+          <p className="italic text-slate-600">
+            결과는 처참했습니다. 일주일 뒤 날아온 10만원의 무단투기 과태료 고지서. <br />
+            그는 억울함보다 깊은 깨달음을 얻었습니다. 
+          </p>
+        </div>
+
+        {/* 핵심 질문: 그린 강조 */}
+        <div className="py-4">
+          <p className="text-2xl md:text-3xl text-emerald-600 font-black italic leading-snug">
+            "환경을 지키는 마음이 왜 벌금의 공포로 이어져야 하는가? <br className="hidden md:block" />
+            왜 지구를 지키는 일은 이토록 귀찮고 스트레스받는 일이어야 하는가?"
+          </p>
+        </div>
+
+        <p className="text-xl">
+          박찬호 대표는 결심했습니다. 
+          <span className="text-slate-900 font-black px-2 bg-emerald-100 mx-1">"나 같은 사람들을 위해, 내가 직접 치워주는 서비스를 만들자."</span> <br />
           이것이 대리버리(DAERIBERI)의 첫 걸음이었습니다.
         </p>
       </div>
