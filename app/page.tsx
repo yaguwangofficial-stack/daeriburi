@@ -180,7 +180,7 @@ export default function Page() {
       {/* 1. 이미지 영역 (오른쪽 배치) */}
       <div className="w-full md:w-1/2 aspect-video rounded-3xl overflow-hidden shadow-2xl border-4 border-white group">
         <img
-          src="/recycling2.jpeg" // 방금 저장한 이미지 파일명
+          src="/recycling2.png" // 방금 저장한 이미지 파일명
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[5000ms]"
           alt="대리버리 크루의 전문 선별 작업"
         />
