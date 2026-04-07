@@ -139,24 +139,6 @@ export default function Page() {
     </div>
   </div>
 </section>
-{/* SECTION 6: VALUE 01 - 시간 (전민건 파운더 기획안 반영) */}
-<section className="py-40 bg-white px-6 border-b border-slate-50">
-  <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-20">
-    <div className="w-full md:w-1/2 aspect-video rounded-[40px] overflow-hidden shadow-2xl border border-slate-100 relative group">
-      <img src="/freedom.png" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Family Time" />
-      <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/40 to-transparent" />
-    </div>
-    <div className="w-full md:w-1/2 space-y-8">
-      <span className="text-emerald-600 font-black tracking-widest text-sm uppercase">RECLAIM YOUR EVENING</span>
-      <h3 className="text-5xl font-black leading-tight">① 당신의 저녁 <br /><span className="text-emerald-500">1시간을 돌려드립니다.</span></h3>
-      <div className="space-y-4 text-xl text-slate-600 leading-relaxed">
-        <p>매주 쏟아지는 배달 용기를 씻고, 박스 테이프를 뜯고, 엘리베이터 앞에서 무거운 짐을 들고 대기하는 시간.</p>
-        <p className="font-bold text-slate-900 italic">"그 시간은 당신이 가장 사랑하는 사람들과 함께해야 할 소중한 휴식입니다."</p>
-        <p>대리버리는 한 달 평균 5시간의 노동을 제거하여, 당신에게 잃어버린 저녁을 선물합니다.</p>
-      </div>
-    </div>
-  </div>
-</section>
 
 {/* SECTION 6: VALUE 01 - 시간 (전민건 파운더 기획안 반영) */}
 <section className="py-40 bg-white px-6 border-b border-slate-50">
@@ -173,46 +155,6 @@ export default function Page() {
         <p className="font-bold text-slate-900 italic">"그 시간은 당신이 가장 사랑하는 사람들과 함께해야 할 소중한 휴식입니다."</p>
         <p>대리버리는 한 달 평균 5시간의 노동을 제거하여, 당신에게 잃어버린 저녁을 선물합니다.</p>
       </div>
-    </div>
-  </div>
-</section>
-
-{/* SECTION 7: VALUE 02 - 환경 (데이터 기반 확장) */}
-<section className="py-40 bg-emerald-50 px-6">
-  <div className="max-w-6xl mx-auto flex flex-col md:flex-row-reverse items-center gap-20">
-    <div className="w-full md:w-1/2 aspect-video rounded-[40px] overflow-hidden shadow-2xl border border-white relative group">
-      <img src="/recycling.png" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Professional Sorting" />
-    </div>
-    <div className="w-full md:w-1/2 space-y-8">
-      <span className="text-emerald-600 font-black tracking-widest text-sm uppercase">ZERO-WASTE REVOLUTION</span>
-      <h3 className="text-5xl font-black leading-tight">② <span className="text-emerald-500">'진짜'</span> 재활용률을 <br />비약적으로 높입니다.</h3>
-      <p className="text-xl text-slate-700 leading-relaxed">
-        개인이 대충 버린 쓰레기의 60% 이상이 선별장에서 탈락되어 매립되거나 소각된다는 사실을 알고 계셨나요? 
-        <br /><br />
-        대리버리는 다릅니다. 전문 교육을 이수한 <span className="font-bold text-emerald-600">대리버리 크루</span>가 
-        '대리버리 정밀 선별 가이드'에 따라 세척, 라벨 제거, 소재 분류를 완벽하게 수행합니다. 
-        우리는 자원 회수율을 <span className="underline decoration-emerald-300 decoration-4 font-bold">90% 이상</span>으로 끌어올립니다.
-      </p>
-    </div>
-  </div>
-</section>
-
-{/* SECTION 8: VALUE 03 - 인테리어 (감성/공간 확장) */}
-<section className="py-40 bg-white px-6">
-  <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-20">
-    <div className="w-full md:w-1/2 aspect-video rounded-[40px] overflow-hidden shadow-2xl border border-slate-100 relative group">
-      <img src="/gallery_bg.png" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="A get interior" />
-    </div>
-    <div className="w-full md:w-1/2 space-y-8">
-      <span className="text-emerald-600 font-black tracking-widest text-sm uppercase">THE ART OF ENTRANCE</span>
-      <h3 className="text-5xl font-black leading-tight">③ 현관문 앞이 <br /><span className="text-emerald-500">하나의 갤러리가 됩니다.</span></h3>
-      <p className="text-xl text-slate-700 leading-relaxed">
-        현관 구석을 차지하던 칙칙한 비닐봉지와 박스들은 이제 잊으세요. 
-        <br /><br />
-        대리버리 전용 수거함 <span className="font-bold italic text-emerald-600">'A get'</span>은 
-        공간의 품격을 높이는 미니멀한 오브제 디자인을 지향합니다. 
-        단순한 쓰레기통이 아닙니다. 집의 첫인상을 바꾸는 <span className="text-slate-900 font-black">라이프스타일 가전</span>입니다.
-      </p>
     </div>
   </div>
 </section>
