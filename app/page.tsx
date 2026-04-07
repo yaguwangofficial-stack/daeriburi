@@ -491,7 +491,40 @@ export default function Page() {
     </div>
   </div>
 </section>
-
+{/* SECTION 9-2: FOUNDING STORY - 10만원의 깨달음 */}
+<div className="mt-32 p-12 bg-white/5 rounded-[50px] border-2 border-emerald-500/30 relative">
+  <div className="absolute -top-10 left-10 bg-emerald-500 text-white px-8 py-3 rounded-full font-black italic shadow-xl">
+    THE GENESIS: 100,000 KRW FINE
+  </div>
+  
+  <div className="flex flex-col md:flex-row gap-12 items-center">
+    <div className="text-8xl">💸</div>
+    <div className="space-y-6">
+      <h3 className="text-3xl md:text-4xl font-black leading-tight text-emerald-400">
+        "이 모든 시작은 대표 박찬호의 <br /> 10만원짜리 과태료 고지서였습니다."
+      </h3>
+      <div className="space-y-4 text-lg text-slate-300 leading-relaxed font-medium">
+        <p>
+          2025년 어느 늦은 밤, 야근을 마치고 돌아온 박찬호 대표는 산더미처럼 쌓인 배달 용기와 사투를 벌였습니다. 
+          라벨을 떼다 손톱이 뒤집히고, 양념 묻은 플라스틱을 씻다 현타가 온 그 순간, 
+          그는 결국 유혹을 이기지 못하고 <span className="text-white font-bold underline decoration-red-500">'에라이, 모르겠다'</span>며 대충 묶어 내놓았습니다.
+        </p>
+        <p className="bg-white/10 p-4 rounded-xl italic">
+          결과는 처참했습니다. 일주일 뒤 날아온 10만원의 무단투기 과태료 고지서. 
+          그는 억울함보다 깊은 깨달음을 얻었습니다. 
+        </p>
+        <p className="text-xl text-white font-black italic">
+          "환경을 지키는 마음이 왜 벌금의 공포로 이어져야 하는가? <br className="hidden md:block" />
+          왜 지구를 지키는 일은 이토록 귀찮고 스트레스받는 일이어야 하는가?"
+        </p>
+        <p>
+          박찬호 대표는 결심했습니다. <span className="text-emerald-400 font-bold">"나 같은 사람들을 위해, 내가 직접 치워주는 서비스를 만들자."</span> 
+          이것이 대리버리(DAERIBERI)의 첫 걸음이었습니다.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
       {/* SECTION 14: FAQ */}
       <section className="py-40 px-6 max-w-4xl mx-auto">
         <h2 className="text-4xl font-black mb-16 text-center underline decoration-slate-200 underline-offset-8">자주 묻는 질문</h2>
