@@ -197,26 +197,6 @@ export default function Page() {
         </div>
       </div>
 
-{/* SECTION 8: VALUE 03 - 인테리어 (감성/공간 확장) */}
-<section className="py-40 bg-white px-6">
-  <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-20">
-    <div className="w-full md:w-1/2 aspect-video rounded-[40px] overflow-hidden shadow-2xl border border-slate-100 relative group">
-      <img src="/gallery_bg.png" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="A get interior" />
-    </div>
-    <div className="w-full md:w-1/2 space-y-8">
-      <span className="text-emerald-600 font-black tracking-widest text-sm uppercase">THE ART OF ENTRANCE</span>
-      <h3 className="text-5xl font-black leading-tight">③ 현관문 앞이 <br /><span className="text-emerald-500">하나의 갤러리가 됩니다.</span></h3>
-      <p className="text-xl text-slate-700 leading-relaxed">
-        현관 구석을 차지하던 칙칙한 비닐봉지와 박스들은 이제 잊으세요. 
-        <br /><br />
-        대리버리 전용 수거함 <span className="font-bold italic text-emerald-600">'A get'</span>은 
-        공간의 품격을 높이는 미니멀한 오브제 디자인을 지향합니다. 
-        단순한 쓰레기통이 아닙니다. 집의 첫인상을 바꾸는 <span className="text-slate-900 font-black">라이프스타일 가전</span>입니다.
-      </p>
-    </div>
-  </div>
-</section>
-
     </div>
   </div>
 </section>
