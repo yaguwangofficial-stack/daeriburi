@@ -202,20 +202,34 @@ export default function Page() {
 </section>
 
 {/* SECTION 8: GALLERY (배경 이미지 패치 완료) */}
-{/* SECTION 8: GALLERY (텍스트 위치 하단 조정 패치) */}
+{/* SECTION 8: GALLERY - 전용 수거함 'A get' (텍스트 가림 방지 패치) */}
 <section className="py-60 bg-white text-center px-6 relative overflow-hidden group">
+  {/* 1. 배경 이미지: 제품 디자인을 강조하기 위해 전체 화면을 덮습니다. */}
   <img
-    src="/gallery_bg.png"
-    className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-[5000ms]"
-    alt="Premium DAERIBURI Bin"
+    src="/gallery_bg.png" // public 폴더의 파일명과 일치하는지 꼭 확인!
+    className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-[5000ms]"
+    alt="Premium DAERIBURI 'A get' Collection Box"
   />
   
-  {/* 👇 텍스트 바를 하단(bottom-20)으로 내리고 크기를 조절해 이미지를 살림 👇 */}
-  <div className="absolute bottom-20 left-1/2 -translate-x-1/2 bg-white/40 backdrop-blur-md px-8 py-4 rounded-2xl shadow-xl border border-white/20 z-10 w-[90%] md:w-auto">
-    <h2 className="text-2xl md:text-4xl font-black text-emerald-700 leading-tight">
-      현관의 품격을 높이는 전용 수거함
-    </h2>
+  {/* 2. 가독성 플레이트: 이미지를 가리지 않도록 하단(bottom-20)에 배치했습니다. */}
+  <div className="absolute bottom-10 md:bottom-20 left-1/2 -translate-x-1/2 z-20 w-[90%] max-w-4xl">
+    <div className="bg-white/30 backdrop-blur-xl px-8 py-10 rounded-[40px] shadow-2xl border border-white/20">
+      <span className="text-emerald-600 font-black tracking-widest text-sm uppercase mb-4 block">
+        Reason 03. Interior Innovation
+      </span>
+      <h2 className="text-3xl md:text-5xl font-black text-slate-900 leading-tight mb-6">
+        현관문 앞이 <span className="text-emerald-600">하나의 갤러리</span>가 됩니다.
+      </h2>
+      <p className="text-lg md:text-xl text-slate-800 font-medium leading-relaxed max-w-2xl mx-auto">
+        현관 구석의 지저분한 박스들은 이제 잊으세요. <br className="hidden md:block" />
+        인테리어를 해치지 않는 미니멀한 디자인의 <span className="font-bold">'A get'</span> 하나로 
+        당신의 소중한 집, 그 첫인상을 완벽하게 바꿉니다.
+      </p>
+    </div>
   </div>
+
+  {/* 3. 비네팅 오버레이: 텍스트 가독성을 위해 하단을 살짝 어둡게 처리했습니다. */}
+  <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent pointer-events-none"></div>
 </section>
 {/* SECTION 10: FUNDING PLAN - 투명한 운영 계획 */}
 <section className="py-40 bg-slate-50 px-6">
