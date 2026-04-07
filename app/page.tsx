@@ -113,33 +113,6 @@ export default function Page() {
   </div>
 </section>
 
-      {/* SECTION 6: FEATURES (저녁의 자유 섹션 이미지 패치) */}
-<section id="features" className="py-40 bg-white px-6">
-  <div className="max-w-6xl mx-auto space-y-20">
-    <div className="flex flex-col md:flex-row items-center gap-20">
-      <div className="w-full md:w-1/2 aspect-video rounded-3xl overflow-hidden shadow-2xl group">
-        {/* 👇 가독성 개선된 배경 이미지 패치 👇 */}
-        <img
-          src="/freedom.png" // public 폴더의 freedom.png를 불러온다.
-          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[5000ms]"
-          alt="Freedom for evening, family time reclaimed"
-        />
-      </div>
-      <div className="w-full md:w-1/2 space-y-6">
-        {/* 네가 바꿨던 한국어 멘트 유지 */}
-        <p className="text-2xl font-bold opacity-80 animate-bounce">⏰</p>
-        <h3 className="text-4xl md:text-5xl font-black mb-6 tracking-tight leading-tight">
-          저녁의 자유
-        </h3>
-        <p className="text-xl text-slate-500 max-w-2xl">
-          한 달 평균 5시간의 노동. <br />
-          이제 그 시간을 가족과 함께하세요.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
 {/* SECTION 6: VALUE 01 - 시간 (전민건 파운더 기획안 반영) */}
 <section className="py-40 bg-white px-6 border-b border-slate-50">
   <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-20">
