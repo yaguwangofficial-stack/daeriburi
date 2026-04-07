@@ -136,7 +136,7 @@ export default function Page() {
 <section className="py-40 bg-emerald-50 px-6">
   <div className="max-w-6xl mx-auto flex flex-col md:flex-row-reverse items-center gap-20">
     <div className="w-full md:w-1/2 aspect-video rounded-[40px] overflow-hidden shadow-2xl border border-white relative group">
-      <img src="/recycling.png" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Professional Sorting" />
+      <img src="/te.png" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Professional Sorting" />
     </div>
     <div className="w-full md:w-1/2 space-y-8">
       <span className="text-emerald-600 font-black tracking-widest text-sm uppercase">ZERO-WASTE REVOLUTION</span>
