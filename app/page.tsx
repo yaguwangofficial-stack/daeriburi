@@ -181,6 +181,7 @@ export default function Page() {
           배달 용기 세척부터 라벨 제거까지 완벽하게 재선별하여 
           버려지는 자원을 최소화합니다.
         </p>
+        
         {/* SECTION 8: VALUE 03 - 인테리어 (감성/공간 확장) */}
 <section className="py-40 bg-white px-6">
   <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-20">
