@@ -422,6 +422,76 @@ export default function Page() {
         <p className="mt-10 text-xl font-bold text-emerald-600">전체 물량의 92%가 이미 소진되었습니다!</p>
       </section>
 
+{/* SECTION 9: TEAM STORY - 브랜딩이 가미된 팀 소개 */}
+<section className="py-40 bg-slate-950 text-white px-6 overflow-hidden">
+  <div className="max-w-6xl mx-auto">
+    <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+      <div className="space-y-4">
+        <span className="text-emerald-500 font-black tracking-widest text-sm uppercase">Our Crew</span>
+        <h2 className="text-4xl md:text-6xl font-black tracking-tighter italic">
+          환경에 미친 <br /> <span className="text-emerald-400 underline decoration-slate-700">집념의 괴짜들</span>
+        </h2>
+      </div>
+      <p className="text-xl text-slate-400 max-w-md leading-relaxed border-l-4 border-emerald-500 pl-6">
+        우리는 쓰레기를 버리는 방식이 세상을 바꿀 수 있다고 믿습니다. 
+        각기 다른 별명을 가진 4명의 전문가가 모여 '대리버리'의 역사를 씁니다.
+      </p>
+    </div>
+
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      {/* 1. 박찬호 (대표 / 노비) */}
+      <div className="group bg-white/5 p-10 rounded-[40px] border border-white/10 hover:bg-emerald-600 transition-all duration-500 hover:-translate-y-4">
+        <div className="text-5xl mb-6 grayscale group-hover:grayscale-0 transition">⛓️</div>
+        <h4 className="text-3xl font-black mb-2">박찬호</h4>
+        <p className="text-emerald-400 font-bold mb-4">대표 / 별명: 노비</p>
+        <p className="text-slate-400 group-hover:text-white leading-relaxed">
+          대리버리의 모든 궂은일을 도맡아 하는 대한민국 1호 환경 노비. 
+          대표라는 직함 뒤에 숨어 24시간 서비스 품질을 감시하는 불굴의 집행자입니다.
+        </p>
+      </div>
+
+      {/* 2. 서혁진 (공동창업자 / 돈줄) */}
+      <div className="group bg-white/5 p-10 rounded-[40px] border border-white/10 hover:bg-emerald-600 transition-all duration-500 hover:-translate-y-4">
+        <div className="text-5xl mb-6 grayscale group-hover:grayscale-0 transition">💰</div>
+        <h4 className="text-3xl font-black mb-2">서혁진</h4>
+        <p className="text-emerald-400 font-bold mb-4">공동창업자 / 별명: 돈줄</p>
+        <p className="text-slate-400 group-hover:text-white leading-relaxed">
+          대리버리의 심장(자본)을 담당하는 전략가. 
+          그의 날카로운 투자 안목과 자본력이 없었다면 우리는 여전히 쓰레기 하차장에 갇혀 있었을 것입니다.
+        </p>
+      </div>
+
+      {/* 3. 전민건 (대리 / 월급루팡) */}
+      <div className="group bg-white/5 p-10 rounded-[40px] border border-white/10 hover:bg-emerald-600 transition-all duration-500 hover:-translate-y-4">
+        <div className="text-5xl mb-6 grayscale group-hover:grayscale-0 transition">🎭</div>
+        <h4 className="text-3xl font-black mb-2">전민건</h4>
+        <p className="text-emerald-400 font-bold mb-4">대리 / 별명: 월급루팡</p>
+        <p className="text-slate-400 group-hover:text-white leading-relaxed">
+          효율의 끝판왕. 최소한의 에너지로 최대의 재활용률을 뽑아내는 전략 천재입니다. 
+          별명은 루팡이지만, 성과만큼은 업계 최고를 훔쳐옵니다.
+        </p>
+      </div>
+
+      {/* 4. 서영준 (신입사원 / 알바생) */}
+      <div className="group bg-white/5 p-10 rounded-[40px] border border-white/10 hover:bg-emerald-600 transition-all duration-500 hover:-translate-y-4">
+        <div className="text-5xl mb-6 grayscale group-hover:grayscale-0 transition">🧹</div>
+        <h4 className="text-3xl font-black mb-2">서영준</h4>
+        <p className="text-emerald-400 font-bold mb-4">신입사원 / 별명: 알바생</p>
+        <p className="text-slate-400 group-hover:text-white leading-relaxed">
+          현장의 살아있는 에너지. 신입의 패기로 전국 수거함을 누비는 행동대장입니다. 
+          알바생의 초심으로 고객의 문 앞을 가장 정성껏 모십니다.
+        </p>
+      </div>
+    </div>
+    
+    <div className="mt-20 pt-10 border-t border-white/10 text-center">
+      <p className="text-slate-500 font-bold tracking-[0.5em] uppercase">
+        Small Actions, Big Changes. We are DAERIBERI.
+      </p>
+    </div>
+  </div>
+</section>
+
       {/* SECTION 14: FAQ */}
       <section className="py-40 px-6 max-w-4xl mx-auto">
         <h2 className="text-4xl font-black mb-16 text-center underline decoration-slate-200 underline-offset-8">자주 묻는 질문</h2>
