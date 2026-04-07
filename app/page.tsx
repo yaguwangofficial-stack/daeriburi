@@ -507,7 +507,7 @@ export default function Page() {
         <p>
           2025년 어느 늦은 밤, 야근을 마치고 돌아온 박찬호 대표는 산더미처럼 쌓인 배달 용기와 사투를 벌였습니다. 
           라벨을 떼다 손톱이 뒤집히고, 양념 묻은 플라스틱을 씻다 현타가 온 그 순간, 
-          그는 결국 유혹을 이기지 못하고 <span className="text-white font-bold underline decoration-red-500">'에라이, 모르겠다'</span>며 대충 묶어 내놓았습니다.
+          그는 결국 유혹을 이기지 못하고 "어쩌라고~" 라며 대충 묶어 내놓았습니다.
         </p>
         <p className="bg-white/10 p-4 rounded-xl italic">
           결과는 처참했습니다. 일주일 뒤 날아온 10만원의 무단투기 과태료 고지서. 
