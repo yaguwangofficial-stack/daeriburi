@@ -246,7 +246,7 @@ export default function Page() {
         <div className="flex gap-6">
           <div className="w-16 h-16 bg-white rounded-2xl shadow-lg flex items-center justify-center text-3xl shrink-0">🛠️</div>
           <div>
-            <h4 className="text-2xl font-bold mb-2">전용 수거함 'A get' 양산 (40%)</h4>
+            <h4 className="text-2xl font-bold mb-2">전용 수거함 '대리버리함' 양산 (40%)</h4>
             <p className="text-slate-500 leading-relaxed">친환경 재생 플라스틱 소재를 활용한 'A get'의 금형 제작 및 초기 물량 1,000개 생산 비용으로 사용됩니다.</p>
           </div>
         </div>
